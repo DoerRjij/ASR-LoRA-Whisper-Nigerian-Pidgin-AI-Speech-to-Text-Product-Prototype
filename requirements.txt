@@ -1,0 +1,17 @@
+# Packages used by the notebook. Versions are intentionally NOT pinned yet.
+# After a successful clean run, generate a pinned file from the working environment:
+#   pip freeze > requirements-lock.txt
+# and record the tested versions here.
+torch
+transformers
+peft
+datasets
+evaluate
+jiwer
+accelerate
+bitsandbytes
+librosa
+gradio
+huggingface_hub
+numpy
+tqdm

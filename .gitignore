@@ -1,0 +1,39 @@
+# Secrets
+.env
+*.token
+hf_token*
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Training outputs and model artefacts
+whisper-large-v2-nigerian-pidgin-lora/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Data and caches
+data/*
+!data/README.md
+.cache/
+huggingface/
+
+# Audio (never commit recordings)
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
